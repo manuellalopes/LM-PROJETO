@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+:root {
+    --bg-color: rgba(255, 255, 255, 0.50);
+    --text-color: black;
+    --bg-color02: rgba(0, 0, 0, 1);
+    --text-color02: white;
+}
+
+.capa {
+    width: 130%;
+    height: 10%;
+    min-height: 115vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.capa h1 {
+    font-size: 100px;
+}
+
+selection {
+    padding: 0 20%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-image: url(../img/4720828.jpg);
+
+}
+
+.body {
+    min-height: 50vh;
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px 150px;
+    background-color: rgba(117, 170, 119, 0.952);
+
+}
+
+.body a {
+    padding: 0px 5px;
+    color: var(--text-color02);
+    background-color: rgb(56, 71, 56);
+}
+
